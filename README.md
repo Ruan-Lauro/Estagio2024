@@ -26,6 +26,8 @@ R = Soma vai ser igual a 91
  K = 12, SOMA = 78
  K = 13, SOMA = 91
 
+-------------------------------------------------------------------------------------------------------
+
  3) Descubra a lógica e complete o próximo elemento:
 
  a) 1, 3, 5, 7, 9 - números ímpares
@@ -49,11 +51,14 @@ R = Soma vai ser igual a 91
 
 -------------------------------------------------------------------------------------------------------
 
- 4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+ 4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os 
+ interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
 
  Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
- Primeiro, ligue um dos interruptores e espere um pouco. Em seguida, desligue o primeiro interruptor e ligue um segundo interruptor. Depois, vá até a sala. Se encontrar uma lâmpada desligada e quente, isso corresponde ao primeiro interruptor. Se encontrar uma lâmpada acesa, isso corresponde ao segundo interruptor. Se encontrar uma lâmpada apagada e fria, isso corresponde ao terceiro interruptor.
+ Primeiro, ligue um dos interruptores e espere um pouco. Em seguida, desligue o primeiro interruptor e ligue um segundo interruptor. Depois, vá até a sala. Se encontrar uma lâmpada desligada 
+ e quente, isso corresponde ao primeiro interruptor. Se encontrar uma lâmpada acesa, isso corresponde ao segundo interruptor. Se encontrar uma lâmpada apagada e fria, isso corresponde ao 
+ terceiro interruptor.
 
 -------------------------------------------------------------------------------------------------------
 
@@ -65,12 +70,12 @@ R = Soma vai ser igual a 91
 
  b) Evite usar funções prontas, como, por exemplo, reverse;
 
-function inverteString(str) {
-    let novaString = '';
-    for (let i = str.length - 1; i >= 0; i--) {
-        novaString += str[i];
-    }
-    return novaString;
-}
+ function inverteString(str) {
+     let novaString = '';
+     for (let i = str.length - 1; i >= 0; i--) {
+         novaString += str[i];
+     }
+     return novaString;
+ }
 
 -------------------------------------------------------------------------------------------------------
